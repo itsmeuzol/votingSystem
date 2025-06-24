@@ -1,0 +1,154 @@
+body {
+	background-color: #ffffff;
+	color: #003893; /* blue tone from Nepal's flag */
+	font-family: 'Segoe UI', sans-serif;
+}
+
+
+.container {
+	margin-top: 50px;
+}
+
+/* Form Styling */
+form label {
+	font-weight: 500;
+	font-style: italic;
+	padding-left: 5px;
+	color: #003893;
+}
+
+input, select {
+	font-size: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input:focus {
+	border-color: #DC143C; /* red from Nepal's flag */
+	outline: none;
+	box-shadow: 0 0 5px rgba(220, 20, 60, 0.5);
+}
+
+button {
+	font-size: 16px;
+	background-color: #DC143C;
+	color: white;
+	cursor: pointer;
+	height: 45px;
+	border: none;
+	border-radius: 5px;
+	transition: background 0.3s ease;
+}
+
+button:hover {
+	background-color: #a10f2e;
+	color: #fff;
+}
+
+.form-panel {
+	max-width: 500px;
+	margin: -100px auto 0;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	background-color: #f7f7f7;
+}
+
+.form-heading {
+	background-color: #003893;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Footer */
+footer {
+	color: white;
+	text-align: center;
+	padding: 20px 10px;
+	background-color: #003893;
+	font-size: 16px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #DC143C;
+}
+
+/* Navbar */
+nav {
+	background-color: #003893;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	list-style: none;
+}
+
+nav ul li a {
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+/* Panel Styles */
+.panel-heading {
+	background-color: #DC143C;
+	color: white;
+	padding: 10px;
+	font-size: large;
+}
+
+.panel-body {
+	padding: 20px;
+}
+
+/* Pagination */
+.pagination li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	color: #003893;
+	font-weight: bold;
+}
+
+/* Special Elements */
+.ballot-submit-button {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.ballot-submit-button button {
+	width: 200px;
+}
+
+.final-ballot-text p {
+	font-size: 24px;
+	color: #003893;
+}
+
+#position:hover {
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+
+

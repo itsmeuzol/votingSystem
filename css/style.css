@@ -1,0 +1,88 @@
+@media print{
+	#print{
+		display:none;
+	}
+	
+	#sort{
+		display:none;
+	}
+	
+	#position{
+		display:none;
+	}
+	
+	#back{
+		display:none;
+	}
+}
+
+/* Voter Registration Form Styles */
+
+#voter-registration-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#voter-registration-form .form-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#voter-registration-form .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003893; /* Nepali flag blue */
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#voter-registration-form label {
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+    color: #166961; /* Nepali green */
+}
+
+#voter-registration-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#voter-registration-form button {
+    margin-top: 25px;
+    background-color: #DC143C; /* Nepali red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#voter-registration-form button:hover {
+    background-color: #a8102f;
+}
+
+#voter-registration-form .link a {
+    color: #003893;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#voter-registration-form .link a:hover {
+    text-decoration: underline;
+    color: #DC143C;
+}
+
+
+
+

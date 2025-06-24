@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+	background-color: #ffffff;
+	color: #003893; /* Nepali flag blue */
+	font-family: 'Segoe UI', sans-serif;
+}
+
+
+.container {
+	margin-top: 10px;
+}
+
+/* Form Styling */
+form label {
+	font-weight: 500;
+	font-style: italic;
+	padding-left: 5px;
+	color: #003893;
+}
+
+input,
+select {
+	font-size: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	width: 12%;
+	box-sizing: border-box;
+}
+
+input:hover,
+select:hover {
+	border-color: #DC143C;
+	box-shadow: 0 0 5px rgba(220, 20, 60, 0.3);
+}
+
+form .btn-block {
+	width: 70%;
+	margin: auto;
+}
+
+
+
+.form-panel {
+	margin: -100px auto 0;
+	max-width: 500px;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	background-color: #f8f9fa;
+}
+
+.form-heading {
+	font-weight: bold;
+	background-color: #003893;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	color: white;
+	text-align: center;
+	padding: 20px 10px;
+	background-color: #003893;
+	font-size: 16px;
+}
+
+footer a {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #DC143C;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #d60f37;
+}
+
+a:visited {
+	color: black;
+}
+
+.link a:hover {
+	color: #DC143C;
+}
+
+
+
+
+
+
+/* Voters Page & Panel Styling */
+.panel-heading {
+	background-color: #003893;
+	font-size: large;
+	color: white;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+}
+
+.panel-body {
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 0 0 5px 5px;
+}
+
+.col-lg-6 {
+	max-width: 98%;
+	margin: auto;
+}
+
+.pagination li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	color: #003893;
+	font-weight: bold;
+}
+
+/* Voting Page */
+#right-logo {
+	margin-right: 60px;
+}
+
+#left-logo {
+	margin-left: 60px;
+}
+
+.ballot-submit-button {
+	margin: 10px auto 50px;
+	text-align: center;
+}
+
+.ballot-submit-button button {
+	width: 200px;
+	background-color: #DC143C;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.final-ballot-text p {
+	font-size: 24px;
+	color: #003893;
+}
+
+#position {
+	padding: 15px;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+}
+
+#position:hover {
+	background-color: #f0f0f0;
+}
+
+/* Images */
+.img {
+	border-style: solid;
+	border-width: thin;
+	border-color: #ccc;
+	border-radius: 5px;
+}
+
+/* Optional tweaks */
+.btn button {
+	width: 500px;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 768px) {
+	nav ul li {
+		display: block;
+		margin: 5px 0;
+	}
+	.form-panel {
+		margin-top: 0;
+	}
+}
+
+
+.top-header {
+    background-color: #003893; /* Nepali flag blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.top-header a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.top-header a:hover {
+    color: #DC143C; /* Nepali flag red */
+}
+
+
+.nav-menue {
+    background-color: #DC143C; /* Nepali flag red */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-menue ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menue ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+	list-style: none;
+}
+
+.nav-menue ul li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.nav-menue ul li a:hover {
+    background-color: white;
+    color: #DC143C;
+}
